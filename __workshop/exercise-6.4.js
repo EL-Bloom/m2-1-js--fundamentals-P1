@@ -5,7 +5,12 @@ function exercise6_4() {
   // all of the EVEN integers from 36 to 0.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
+  // ----------------------------------------------------------------- 
+  for (let num= 36; num >= 0; num--) {  
+   
+    console.log(num);
+  }
+
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //

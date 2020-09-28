@@ -22,7 +22,20 @@ function exercise7() {
   // e.g. `It's ${number}h. Time to train!`
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
+  // ----------------------------------------------------------------- 
+  for (let num= 0; num <=23; num++) {  
+    if ( (num <= 4) || (num >= 22)  ) {
+    console.log("It's " + num + "h. It's time to sleep!")
+  } 
+  else if    ((num >= 3) && (num <= 12) && (num % 3 === 0)){  
+  
+    console.log("It's " + num + "h. It's time to eat!")
+  } 
+
+  else { 
+    console.log("It's " + num + "h. It's time to train!")
+  }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
